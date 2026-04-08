@@ -9,7 +9,6 @@ import { DietPlanSkeleton } from '../components/Skeletons';
 import { getErrorMessage } from '../utils/helpers';
 import NearbyDoctors from '../components/NearbyDoctors';
 
-// Moved outside to prevent re-renders
 const SpeechButton: React.FC<{ textToSpeak: string; title: string; selectedLanguage: string }> = ({ textToSpeak, title, selectedLanguage }) => {
     const [isSpeaking, setIsSpeaking] = useState(false);
     const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
