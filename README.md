@@ -71,7 +71,7 @@ The platform provides notifications, reminders, and emergency support
 Users can connect with nearby hospitals when required
 
 Deployment
-The project is deployed using Raccoon AI, enabling seamless hosting and real-time accessibility. It follows a frontend-based architecture integrated with multiple APIs, ensuring scalability and performance without requiring a complex backend.
+The project is deployed using Raccoon AI, enabling seamless hosting and real-time accessibility. It follows a frontend-based architecture integrated with multiple API's, ensuring scalability and performance without requiring a complex backend.
 
 Future Scope
 Integration with wearable health devices for real-time monitoring
