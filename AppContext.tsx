@@ -73,7 +73,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     const logout = () => {
         setUser(null);
         setCurrentPage('DASHBOARD'); // Will be redirected to Login by App component
-        setHealthTipData(null); // Clear cache on logout
+        setHealthTipData(null); // Clear cache on logout okay
     };
 
     const navigateTo = (page: Page) => {
@@ -100,7 +100,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
 
         const updatedLog = {
             ...todayLog,
-            // Only add to graphable calories if source is from the counter
+            // Only add to graphable calories if source is from the counter.
             caloriesIn: todayLog.caloriesIn + (source === 'counter' ? totalCalories : 0),
             loggedFoods: [...todayLog.loggedFoods, ...itemsWithSource],
         };
