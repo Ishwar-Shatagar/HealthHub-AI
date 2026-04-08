@@ -21,10 +21,10 @@ const CalorieCounter: React.FC = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState('');
 
-    // State for the confirmation step
+    
     const [identifiedFoods, setIdentifiedFoods] = useState<IdentifiedFood[]>([]);
 
-    // State for the final, editable result
+
     const [analysisResult, setAnalysisResult] = useState<CalorieAnalysisResult | null>(null);
 
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -32,7 +32,7 @@ const CalorieCounter: React.FC = () => {
         if (selectedFile) {
             setFile(selectedFile);
             setPreview(URL.createObjectURL(selectedFile));
-            // Reset flow if a new file is chosen
+          
             setStep('upload');
             setError('');
             setIdentifiedFoods([]);
