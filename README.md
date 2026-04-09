@@ -19,29 +19,29 @@ These components provide real-time analysis, personalized recommendations, and c
 
 Key Features (15+ Modules)
 
-Heart Disease Prediction
-Kidney Disease Risk Analysis
-Diabetes Risk Predictor
-Medical Imaging Analysis (X-ray, MRI, CT)
-Skin Analysis using AI
-Drug Impact Visualizer
-Human Twin Model (visual representation of drug effects on the body)
-Activity Tracker
-Diet Planning System
-Calorie Counter
-Exercise and Workout Management
-Health Dashboard with Insights
-Report Analyzer (simplifies medical reports)
-Personalized Goal Tracking
-AI-based Recommendations
+Heart Disease Prediction,
+Kidney Disease Risk Analysis,
+Diabetes Risk Predictor,
+Medical Imaging Analysis (X-ray, MRI, CT),
+Skin Analysis using AI,
+Drug Impact Visualizer,
+Human Twin Model (visual representation of drug effects on the body),
+Activity Tracker,
+Diet Planning System,
+Calorie Counter,
+Exercise and Workout Management,
+Health Dashboard with Insights,
+Report Analyzer (simplifies medical reports),
+Personalized Goal Tracking,
+AI-based Recommendations,
 
 Additional Smart Features
 
-Multilingual Voice Assistant for easy interaction
-Calendar System for health scheduling and reminders
-Notification System for health updates and alerts
-SOS Emergency Feature for critical situations
-Result Tracking and history management
+Multilingual Voice Assistant for easy interaction,
+Calendar System for health scheduling and reminders,
+Notification System for health updates and alerts,
+SOS Emergency Feature for critical situations,
+Result Tracking and history management,
 
 Healthcare Access Features
 
@@ -71,11 +71,15 @@ The platform provides notifications, reminders, and emergency support
 Users can connect with nearby hospitals when required
 
 Deployment
+
 The project is deployed using Raccoon AI, enabling seamless hosting and real-time accessibility. It follows a frontend-based architecture integrated with multiple API's, ensuring scalability and performance without requiring a complex backend.
 
 Future Scope
+
 Integration with wearable health devices for real-time monitoring
 Integration with hospitals, especially government hospitals, for improved accessibility
 Expansion of healthcare services and real-time patient support
+
 Conclusion
+
 Health Hub AI represents a shift from reactive healthcare to proactive health management. It provides a centralized, intelligent, and user-friendly platform that empowers individuals to take control of their health while improving accessibility and efficiency in healthcare services.
